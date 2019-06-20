@@ -1,2 +1,6 @@
 # node-express-app
-nodeJs API test
+
+
+App with a No- Sql DB and POST, GET  APIs. 
+
+
