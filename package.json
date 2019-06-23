@@ -4,13 +4,30 @@
   "description": "App with a No- Sql DB and POST, GET  APIs.",
   "main": "index.js",
   "scripts": {
+    "start":"node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "cors": "2.7.1",
+    "ejs": "2.4.1",
+    "errorhandler": "1.4.3",
+    "express": "4.16.4",
+    "express-jwt": "3.3.0",
+    "express-session": "1.13.0",
+    "jsonwebtoken": "7.1.9",
+    "method-override": "2.3.5",
+    "methods": "1.1.2",
+    "mongoose": "4.4.10",
+    "mongoose-unique-validator": "1.0.2",
+    "morgan": "1.7.0",
+    "swagger-ui-express": "^4.0.2"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/navinkolli/node-express-app.git"
   },
-  "author": "",
+  "author": "Naveen Kolli",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/navinkolli/node-express-app/issues"
