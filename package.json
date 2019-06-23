@@ -4,6 +4,7 @@
   "description": "App with a No- Sql DB and POST, GET  APIs.",
   "main": "index.js",
   "scripts": {
+    "start":"node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -11,7 +12,7 @@
     "cors": "2.7.1",
     "ejs": "2.4.1",
     "errorhandler": "1.4.3",
-    "express": "4.13.4",
+    "express": "4.16.4",
     "express-jwt": "3.3.0",
     "express-session": "1.13.0",
     "jsonwebtoken": "7.1.9",
@@ -19,7 +20,8 @@
     "methods": "1.1.2",
     "mongoose": "4.4.10",
     "mongoose-unique-validator": "1.0.2",
-    "morgan": "1.7.0"
+    "morgan": "1.7.0",
+    "swagger-ui-express": "^4.0.2"
   },
   "repository": {
     "type": "git",
