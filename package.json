@@ -1,0 +1,41 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "App with a No- Sql DB and POST, GET  APIs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/nodemon/bin/nodemon.js  index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": ""
+  },
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "boom": "^7.3.0",
+    "cors": "2.7.1",
+    "ejs": "2.4.1",
+    "errorhandler": "1.4.3",
+    "express": "4.16.4",
+    "express-jwt": "3.3.0",
+    "express-session": "1.13.0",
+    "fastify": "^1.14.6",
+    "fastify-swagger": "^0.15.3",
+    "jsonwebtoken": "7.1.9",
+    "method-override": "2.3.5",
+    "methods": "1.1.2",
+    "mongoose": "^5.6.0",
+    "mongoose-unique-validator": "1.0.2",
+    "morgan": "1.7.0",
+    "nodemon": "^1.19.1",
+    "swagger-ui-express": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navinkolli/node-express-app.git"
+  },
+  "author": "Naveen Kolli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navinkolli/node-express-app/issues"
+  },
+  "homepage": "https://github.com/navinkolli/node-express-app#readme"
+}
