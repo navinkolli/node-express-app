@@ -23,6 +23,8 @@ start();
 // Require external modules
 const mongoose = require('mongoose')
 // Connect to DB
-mongoose.connect("mongodb://localhost/mycargarage")
- .then(() => console.log("MongoDB connected…"))
+mongoose.connect("mongodb://localhost/node-db")
+ .then((e) => {
+console.log("MongoDB connected…",e)
+ } )
  .catch(err => console.log(err))
