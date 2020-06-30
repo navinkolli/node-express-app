@@ -15,7 +15,7 @@
     "ejs": "2.4.1",
     "errorhandler": "1.4.3",
     "express": "4.16.4",
-    "express-jwt": "3.3.0",
+    "express-jwt": "6.0.0",
     "express-session": "1.13.0",
     "fastify": "^1.14.6",
     "fastify-swagger": "^0.15.3",
